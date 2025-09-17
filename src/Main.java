@@ -23,7 +23,7 @@ class DownloadTask implements Runnable {
     }
 }
 
-public class ConcorrenciaExemplo {
+public class Main {
     public static void main(String[] args) {
         ExecutorService executor = Executors.newFixedThreadPool(3);
 
